@@ -6,7 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 #2e video on selenium TechWithTim
-PATH = '/Users/PvdL/Documents/Programming/Selenium_test/chromedriver'
+#PATH = 'C:/Program Files (x86)/chromedriver.exe' #voor windows
+#driver = webdriver.Chrome(PATH) #voor windows
 driver = webdriver.Chrome()
 
 driver.get('https://techwithtim.net')
