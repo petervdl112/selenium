@@ -24,8 +24,12 @@ email.send_keys('p_vdlinde@hotmail.com')
 driver.implicitly_wait(1)
 password = driver.find_element_by_id('login-password')
 password.send_keys('pipo1980_')
+driver.implicitly_wait(1)
+inloggen2 = driver.find_element_by_xpath('//button[normalize-space()="Inloggen"]')
+inloggen2.click()
+driver.implicitly_wait(3)
 
-
+#gebruik selectorshub in chrome om het xpath te vinden
 
 
 time.sleep(60)
